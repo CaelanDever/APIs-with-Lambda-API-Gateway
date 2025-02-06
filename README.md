@@ -3,7 +3,7 @@
 **Author:** Caelan Dever  
 **Email:** caelanwd@gmail.com
 
-## Introducing Today's Project!
+## Introducing Today's Project! 
 
 In this project, I will demonstrate how to build an API without having to manage traditional servers I'm doing this project to learn Lambda and API Gateway.
 
