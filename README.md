@@ -3,12 +3,6 @@
 **Author:** Caelan Dever  
 **Email:** caelanwd@gmail.com
 
----
-
-![Image](http://learn.nextwork.org/happy_amber_shy_newt/uploads/aws-compute-api_c9d0e1f2)
-
----
-
 ## Introducing Today's Project!
 
 In this project, I will demonstrate how to build an API without having to manage traditional servers I'm doing this project to learn Lambda and API Gateway.
@@ -33,7 +27,8 @@ AWS Lambda is a service that lets you run code without needing to manage any com
 
 The code I added to my function will set up a Lambda function that retrieves data from a DynamoDB table.
 
-![Image](http://learn.nextwork.org/happy_amber_shy_newt/uploads/aws-compute-api_a1b2c3d5)
+<img width="475" alt="fds" src="https://github.com/user-attachments/assets/1b06d10a-5dde-488f-b488-12b1fb632d16" />
+
 
 ---
 
@@ -45,7 +40,7 @@ Amazon API Gateway is the "front door" to our Lambda function. I'm using API Gat
 
 When a user makes a request Lambda processes the request, then sends the response through the API Gateway back to the user.
 
-![Image](http://learn.nextwork.org/happy_amber_shy_newt/uploads/aws-compute-api_m3n4o5p6)
+<img width="741" alt="t32" src="https://github.com/user-attachments/assets/1c741cfe-e274-4612-9279-977ac5450abe" />
 
 ---
 
@@ -75,7 +70,8 @@ DELETE to remove
 
 I created a Lambda proxy integration. API Gateway doesn't need to reformat the user's request. Instead, it passes the entire request—headers, query parameters, path parameters, and body directly to Lambda. 
 
-![Image](http://learn.nextwork.org/happy_amber_shy_newt/uploads/aws-compute-api_c9d0e1f2)
+
+<img width="912" alt="2d1" src="https://github.com/user-attachments/assets/4c6424e2-c184-47bd-82a0-2232c52cccf4" />
 
 ---
 
@@ -85,7 +81,7 @@ When you deploy an API, you deploy it to a specific stage. A stage is  is a snap
 
 To visit my API, I put the invoke URL in a new tab search bar.  The API displayed an error because we haven't set up our DynamoDB table yet.
 
-![Image](http://learn.nextwork.org/happy_amber_shy_newt/uploads/aws-compute-api_3ethryj2)
+<img width="435" alt="c2" src="https://github.com/user-attachments/assets/75b54e45-f701-4f9b-a251-8bc6f12febd1" />
 
 ---
 
@@ -97,7 +93,8 @@ Once I prepared my documentation, I can publish it to the prod stage. You have t
 
 My published and downloaded documentation showed me the main difference between the automatically generated documentation and the manually written part in your API is the level of customization and specificity in each section. 
 
-![Image](http://learn.nextwork.org/happy_amber_shy_newt/uploads/aws-compute-api_z9a0b1c2)
+
+<img width="663" alt="6e" src="https://github.com/user-attachments/assets/d65d4f86-0124-43a2-a96f-3d4125af7eeb" />
 
 ---
 
